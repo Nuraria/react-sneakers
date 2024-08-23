@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 44px;
+
+    .left_part, .right_part{
+        display: flex;
+
+        .info_field p{
+            opacity: 0.5;
+        }
+
+        img{
+            margin-right: 16px;
+        }
+    }
+
+    .right_part {
+        width: 330px;
+        justify-content: space-between;
+        text-align: center;
+        
+        a{
+            text-decoration: none;
+            color: #5C5C5C;
+            
+        }
+    }
+}
