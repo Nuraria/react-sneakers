@@ -1,11 +1,15 @@
 import React from "react";
 import "./Card.scss";
 import PLUS from "../../assets/Vector.svg";
-import sneak from "../../assets/sneakers/image 5 (1).png";
+import sneak from "../../assets/sneakers/image 5.png";
+import LIKE_OF from "../../assets/like/like off.svg";
 
 const Card = () => {
   return (
     <div className="card">
+      <div className="favorit">
+        <img width={32} src={LIKE_OF} alt="like_off" />
+      </div>
       <img
         width={133}
         height={112}

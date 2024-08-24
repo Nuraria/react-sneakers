@@ -1,0 +1,34 @@
+.container_product{
+    display: flex;
+    align-items: center;
+    border: 1px solid #f3efef;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .removeBtn{
+        cursor: pointer;
+        
+        &:hover{
+            opacity: 0.5;
+          }
+    }
+    
+    .itemImg{
+        width: 70px;
+        height: 70px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        // margin-right: 20px;
+
+    }
+    p{
+        margin: 0;
+    }
+
+    h2{
+        font-size: 14px;
+    }
+}

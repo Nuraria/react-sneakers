@@ -5,7 +5,7 @@ import BASKET from "../../assets/Group.svg";
 import LIKE from "../../assets/zmdi_favorite-outline.svg";
 import USER from "../../assets/Union.svg";
 
-const Footer = () => {
+const Header = () => {
   return (
     <header>
       <div className="left_part">
@@ -33,4 +33,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Header;
