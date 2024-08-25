@@ -17,7 +17,7 @@ const Header = () => {
       </div>
       <div className="right_part">
         <a href="#">
-          <img width={18} src={BASKET} alt="basket" />
+          <img className="bsk" width={18} src={BASKET} alt="basket" />
           <span>1205 руб.</span>
         </a>
         <a href="#">

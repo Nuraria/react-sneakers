@@ -3,6 +3,29 @@ import Card from "../card/Card.jsx";
 import SEARCH from "../../assets/loop.svg";
 
 const Content = () => {
+  const arr = [
+    {
+      title: "Мужские Кроссовки Nike Blazer Mid Suede",
+      price: 12999,
+      imgUrl: "/img/image 5.png",
+    },
+    {
+      title: "Мужские Кроссовки Nike Air Max 270",
+      price: 15899,
+      imgUrl: "/img/image 5 (1).png",
+    },
+    {
+      title: "Мужские Кроссовки Nike Blazer Mid Suede",
+      price: 8499,
+      imgUrl: "/img/image 5 (2).png",
+    },
+    {
+      title: "Кроссовки Puma X Aka Boku Future Rider",
+      price: 7999,
+      imgUrl: "/img/image 5 (4).png",
+    },
+  ];
+
   return (
     <>
       <div className="search_and_heading-block">
@@ -13,11 +36,15 @@ const Content = () => {
         </div>
       </div>
       <div className="container_for_cards">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-       
+        {arr.map((obj) => (
+          <Card
+            title={obj.title}
+            price={obj.price}
+            imgUrl={obj.imgUrl}
+            onClickFavorite={() => console.log(1)}
+            onClickPluse={() => console.log(1)}
+          />
+        ))}
       </div>
     </>
   );

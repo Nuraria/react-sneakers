@@ -2,7 +2,7 @@
 .card{
     border: 1px solid #e6e5e5;  
     padding: 30px;
-    max-width: 200px;
+    max-width: 210px;
     // height: 260px;
     border-radius: 40px;
     transition: box-shadow 0.2s ease-in-out, transform 0.3s ease-in-out;
@@ -28,13 +28,7 @@
             text-transform: uppercase;
         }
 
-        .button_point{
-            background-color:  #ffffff;
-            border: 1px solid #f2f2f2;
-            box-sizing: border-box;
-            border-radius: 8px;
-            height: 32px;
-            width: 32px;
+        .plus_icon{
             cursor: pointer;
         }
     }
