@@ -5,7 +5,7 @@ import BASKET from "../../assets/Group.svg";
 import LIKE from "../../assets/zmdi_favorite-outline.svg";
 import USER from "../../assets/Union.svg";
 
-const Header = () => {
+const Header = ({onClickCart}) => {
   return (
     <header>
       <div className="left_part">
@@ -17,7 +17,7 @@ const Header = () => {
       </div>
       <div className="right_part">
         <a href="#">
-          <img className="bsk" width={18} src={BASKET} alt="basket" />
+          <img className="bsk" width={18} src={BASKET} alt="basket" onClick = {onClickCart} />
           <span>1205 руб.</span>
         </a>
         <a href="#">
